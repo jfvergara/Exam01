@@ -33,12 +33,9 @@ namespace Exam01
             foreach (var item in elements)
             {
 
-                Console.WriteLine(item.Text);
+                Console.WriteLine(item.Text + "\n");
 
             }
-
-
-
             Assert.Pass();
         }
     }
